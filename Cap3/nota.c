@@ -15,14 +15,14 @@ prima uma mensagem informando a situação do estudante quanto a sua aprovação
 int main()
 {
     float nota;
-    printf("Insira a sua nota:\n");
+    printf("Insira a sua nota (0.00 a 10.00):\n");
     fflush(stdin);
     scanf("%f", &nota);
     if (nota >= 7) {
         printf("Você está aprovado.\n");
     } else if (nota < 7 && nota >= 2) {
         printf("Você está na final.\n");
-    } else if (nota < 2) {
+    } else if (nota < 2 && nota >= 2) {
         printf("Você está reprovado.\n");
     } else {
         printf("Nota inválida! Verifique sua situação.");

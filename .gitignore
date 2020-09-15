@@ -50,3 +50,5 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+Cap3/notaerro.c
+comprovanteEnvioCap3&4.png
