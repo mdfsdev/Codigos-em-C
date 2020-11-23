@@ -1,0 +1,44 @@
+Cap 8 - 1 mini-avaliacao:
+1-
+p = &i;
+printf ("%p", &i);
+int *p = &i;
+func (&i);
+
+2-
+Cria um ponteiro que aponta para a variável do tipo int;
+
+3-
+a) indica a declaração de uma variável do tipo ponteiro que aponta para um valor inteiro b) faz referencia ao valor armazenado na variável para a qual o ponteiro "p" aponta c) 1 - faz referencia ao valor armazenado na variável para a qual o ponteiro "p" aponta  2 - operação de multiplicação entre a variável "x" e o inteiro 5. d) cria um ponteiro para um espaco de memoria aleatório.
+
+4 - 
+A variável apontada por p;
+
+5 -
+0x7fff1fd07444  7       5       15      9                                                                                                   
+
+6-
+
+*q=&j;
+i=(*&)j;
+
+7- 
+imprime os elementos do vetor mat
+
+
+Cap 8 - 2 miniavaliacao
+
+1-
+Imprime os endereços de memoria da variável x e do ponteiro "cPtr" que aponta para a mesma.
+
+2-
+#include <stdio.h> 
+
+int main(void) { 
+    int x = 1, *vPtr = &x; 
+    printf("%d\n", *vPtr); 
+    
+    return 0; 
+}
+
+3 -
